@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f8f8; /* Fondo gris claro */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #335099; /* Azul oscuro */
+}
+
+form {
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #dddacb; /* Fondo blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc; /* Borde gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+button {
+    background-color: #336699; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #204d74; /* Cambio de color al pasar el ratón */
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #5686b7; /* Azul oscuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.result-container {
+    text-align: center; /* Cambiado a centrado */
+    margin-top: 20px;
+}
+
+.result-container p {
+    margin: 10px 0;
+}
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Agregado para mantener consistencia con el formulario */
+    background-color: #dddacb;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

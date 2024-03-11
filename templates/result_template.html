@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='style.css') }}">
+    <title>Resultado - Contador de Palabras</title>
+</head>
+<body>
+    <div class="result-container">
+        <p><strong>Texto ingresado:</strong> {{ texto }}</p>
+        <p><strong>Cantidad de palabras:</strong> {{ cantidad_palabras }}</p>
+        <button onclick="window.location.href='/'">Volver al formulario</button>
+    </div>
+    
+
+</body>
+</html>
